@@ -1,3 +1,4 @@
+//this is a 8-bit adder design in SV
 module adder(input logic [7:0] a,
              input logic [7:0] b,
              input logic cin,
