@@ -1,12 +1,13 @@
 //8-bit adder testbench
 
 module adder_tb;
-  reg [7:0] a;
-  reg [7:0] b;
-  reg cin;
-  wire [7:0] sum;
-  wire cout;
+  logic [7:0] a;
+  logic [7:0] b;
+  logic cin;
+  logic [7:0] sum;
+  logic cout;
   
+  //instantiation of adder module 
   adder a1( .a(a), .b(b), .cin(cin), .sum(sum), .cout(cout) );
   
   initial begin
